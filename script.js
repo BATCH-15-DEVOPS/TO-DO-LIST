@@ -19,7 +19,7 @@ function solve() {
         }, 3000); 
     } 
 
-    if (password !== repassword) { 
+    if (password!==repassword) { 
         flag = 0; 
         pass.innerText = 
             "Passwords do not match. Please re-enter."; 
